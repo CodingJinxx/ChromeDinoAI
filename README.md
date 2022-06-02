@@ -2,9 +2,11 @@
 
 
 # Project Setup
+
+https://gist.github.com/prof3ssorSt3v3/edb2632a362b3731274cfab84e9973f9
+
 ```
-conda create -n dino python=3.10
-conda activate dino
-conda install virtualenv
 virtualenv venv
+venv/Scripts/activate.bat
+pip install pillow pygame
 ```
